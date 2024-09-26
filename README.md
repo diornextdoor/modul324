@@ -1,48 +1,27 @@
+# Modul 324: CI-CD, GitHub, React
 
-# Architecture Ref.Card 02 - React Application (serverless)
+**Achtung:<br/><br/> Wir haben statt ein simples README zu erstellen eine Dokumentation verfasst, die im Projekt im Public Ordner zu finden ist.**
 
-Link zur Übersicht<br/>
-https://gitlab.com/bbwrl/m346-ref-card-overview
+**Das PDF ist im src/Github_Dokumentation zu finden. Bitte installieren Sie die Extension vscode-pdf von tomoki1207 um das PDF erfolgreich anzuzeigen.**
 
-## Installation der benötigten Werkzeuge
+## Beschreibung
 
-Für das Bauen der App wird Node bzw. npm benötigt. Die Tools sind unter 
-der folgenden URL zu finden. Für die meisten Benutzer:innen empfiehlt sich 
-die LTS Version.<br/>
-https://nodejs.org/en/download/
+Dieses Projekt ist ein einfaches React Projekt, dass einen implementierten Workflow besitzt, der das Docker Image bei jedem Push im Main Branch auf Docker Hub hochlädt.
 
-Node Version Manager<br/>
-Für erfahren Benutzer:innen empfiehlt sich die Installation des 
-Node Version Manager nvm. Dieses Tool erlaubt das Installiert und das 
-Wechseln der Node Version über die Kommandozeile.<br/>
-**Achtung: Node darf noch nicht auf dem Computer installiert sein.**<br/>
-https://learn2torials.com/a/how-to-install-nvm
+## Wichtiges
 
+Wir haben dieses Projekt alle indidivuell ausgeführt aber die Dokumentation zusammen gemacht, da es ein Missverständnis gab und wir auf dem Aufgabenblatt von Biztrips gelesen haben, dass es sich um eine Gruppenarbeit handelt.
 
 ## Inbetriebnahme auf eigenem Computer
 
-Projekt herunterladen<br/>
-```git clone git@gitlab.com:bbwrl/m346-ref-card-02.git```
-<br/>
-```cd architecture-refcard-02```
+### Projekt auf GitHub importieren
 
-### Projekt bauen und starten
-Die Ausführung der Befehle erfolgt im Projektordner
+Auf GitHub auf das Plus Icon klicken und Import Repository wählen. Dann folgendes Projekt importieren: https://gitlab.com/bbwrl/m346-ref-card-02
 
-Builden mit Node/npm<br/>
-```$ npm install```
+### Projekt klonen
 
-Das Projekt wird gebaut und die entsprechenden Dateien unter dem Ordner node_modules gespeichert.
+Das neu importierte Projekt lokal herunterladen<br/>
+`git clone https://gitlab.com/bbwrl/m346-ref-card-02`
 
-Die App kann nun mit folgendem Befehl gestartet werden<br/>
-```$ npm start```
-
-Die App kann nun im Browser unter der URL http://localhost:3000 betrachtet werden.
-
-
-
-### Inbetriebnahme mit Docker Container
-folgt...
-
-
-
+Und danach auf VS-Code öffnen<br/>
+`code .`
